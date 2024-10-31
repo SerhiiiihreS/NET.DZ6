@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Aircraft.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="matrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

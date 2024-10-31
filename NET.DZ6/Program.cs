@@ -1,8 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using System.Collections;
+using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
+using System.Security.Cryptography;
+
 namespace NET.DZ6
 
 {
@@ -16,6 +21,10 @@ namespace NET.DZ6
             Aircraft er= new Aircraft();
             er.Enter();
             er.Print();
+            matrix we= new matrix();    
+            we.Enter();
+            we.Print();
+            we.MinMax();
         }
     }
 }

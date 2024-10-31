@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Collections;
+using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
+using System.Security.Cryptography;
 
 namespace NET.DZ6
 {
