@@ -13,6 +13,9 @@ namespace NET.DZ6
             Employee em = new Employee();     
             em.Enter();
             em.Print();
+            Aircraft er= new Aircraft();
+            er.Enter();
+            er.Print();
         }
     }
 }
